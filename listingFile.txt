@@ -1,0 +1,36 @@
+------ STATE 0 ------
+	input [a]: 1
+	input [b]: 2
+	input [g]: 3
+	input [z]: 4
+	input [|]: 5
+------ STATE 1 (accepting for token aOrB)  ------
+	input [a]: 1
+	input [b]: 2
+	input [g]: -1
+	input [z]: -1
+	input [|]: -1
+------ STATE 2 (accepting for token aOrB)  ------
+	input [a]: 1
+	input [b]: 2
+	input [g]: -1
+	input [z]: -1
+	input [|]: -1
+------ STATE 3 (accepting for token ignore)  ------
+	input [a]: -1
+	input [b]: -1
+	input [g]: -1
+	input [z]: -1
+	input [|]: -1
+------ STATE 4 ------
+	input [a]: -1
+	input [b]: -1
+	input [g]: 3
+	input [z]: 4
+	input [|]: 5
+------ STATE 5 ------
+	input [a]: -1
+	input [b]: -1
+	input [g]: 3
+	input [z]: 4
+	input [|]: 5

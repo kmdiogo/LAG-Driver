@@ -36,14 +36,17 @@ int main() {
     for (auto & x : lex.ignores) {
         cout << x << ", ";
     }
+    cout << endl << endl;
+
+    cout << "acceptingState: ";
+    for (auto & x : lex.acceptingStates) {
+        cout << x.first << " ";
+    }
     cout << endl;
 
-    for (int i=0; i < 4;i++){
-        //cout << inFile.tellg() << endl;
-        if (lex.next(t, lexeme)) {
-            cout << "Found token: " << t << endl;
-            cout << "Lexeme: " << lexeme << endl;
-        }
+    while (lex.next(t, lexeme)){
+        cout << "Found token: " << t << endl;
+        cout << "Lexeme: " << lexeme << endl;
     }
 
 
