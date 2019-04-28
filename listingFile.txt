@@ -1,36 +1,42 @@
 ------ STATE 0 ------
-	input [a]: 1
-	input [b]: 2
-	input [g]: 3
-	input [z]: 4
-	input [|]: 5
------- STATE 1 (accepting for token aOrB)  ------
-	input [a]: 1
-	input [b]: 2
-	input [g]: -1
+	input [ ]: 1
+	input [numbers]: 2
+	input [alphaCapital]: 3
+	input [alpha]: 4
 	input [z]: -1
-	input [|]: -1
------- STATE 2 (accepting for token aOrB)  ------
-	input [a]: 1
-	input [b]: 2
-	input [g]: -1
+------ STATE 1 (accepting for token ignore)  ------
+	input [ ]: 1
+	input [numbers]: -1
+	input [alphaCapital]: -1
+	input [alpha]: -1
 	input [z]: -1
-	input [|]: -1
------- STATE 3 (accepting for token ignore)  ------
-	input [a]: -1
-	input [b]: -1
-	input [g]: -1
+------ STATE 2 (accepting for token numbas)  ------
+	input [ ]: -1
+	input [numbers]: 2
+	input [alphaCapital]: -1
+	input [alpha]: -1
 	input [z]: -1
-	input [|]: -1
------- STATE 4 ------
-	input [a]: -1
-	input [b]: -1
-	input [g]: 3
-	input [z]: 4
-	input [|]: 5
------- STATE 5 ------
-	input [a]: -1
-	input [b]: -1
-	input [g]: 3
-	input [z]: 4
-	input [|]: 5
+------ STATE 3 (accepting for token identifier)  ------
+	input [ ]: -1
+	input [numbers]: 5
+	input [alphaCapital]: 3
+	input [alpha]: 4
+	input [z]: 6
+------ STATE 4 (accepting for token identifier)  ------
+	input [ ]: -1
+	input [numbers]: 5
+	input [alphaCapital]: 3
+	input [alpha]: 4
+	input [z]: 6
+------ STATE 5 (accepting for token identifier)  ------
+	input [ ]: -1
+	input [numbers]: 5
+	input [alphaCapital]: -1
+	input [alpha]: -1
+	input [z]: 6
+------ STATE 6 (accepting for token identifier)  ------
+	input [ ]: -1
+	input [numbers]: 5
+	input [alphaCapital]: -1
+	input [alpha]: -1
+	input [z]: 6

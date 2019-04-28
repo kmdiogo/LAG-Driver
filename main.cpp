@@ -21,7 +21,7 @@ int main() {
     string lexeme;
     Token t;
 
-    for (int i=0; i < lex.dfa.size();i++) {
+    /*for (int i=0; i < lex.dfa.size();i++) {
         cout << "State " << i << ": ";
         for (auto & edgePair : lex.dfa[i]) {
             cout << "Input: [";
@@ -42,7 +42,7 @@ int main() {
     for (auto & x : lex.acceptingStates) {
         cout << x.first << " ";
     }
-    cout << endl;
+    cout << endl;*/
 
     while (lex.next(t, lexeme)){
         cout << "Found token: " << t << endl;
