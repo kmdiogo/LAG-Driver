@@ -1,0 +1,18 @@
+token OP_PLUS /\+/
+token OP_MINUS /-/
+token OP_STAR /\*/
+token OP_SLASH /\//
+token OP_MOD /%/
+
+token OP_INC /\+\+/
+token OP_DEC /--/
+
+token OP_ASSIGN /=/
+
+token OP_EQ /==/
+token OP_NE /!=/
+token OP_GT />/
+token OP_LT /</
+token OP_GE />=/
+token OP_LE /<=/
+

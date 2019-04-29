@@ -1,0 +1,8 @@
+class alpha [a-zA-Z_]
+class digit [0-9]
+class ws [\n\t\f\v\r\ ]
+
+token Ident /[alpha]([alpha]|[digit])* /
+
+ignore /[ws]+/
+

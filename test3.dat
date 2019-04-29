@@ -1,0 +1,13 @@
+class digit19 [1-9]
+class digit09 [0-9]
+class digit07 [0-7]
+class xdigit [0-9a-fA-F]
+class exp [Ee]
+class pm [+-]
+
+token dNum /0|[digit19][digit09]*/
+token oNum /0[digit07]+/
+token hNum /0x[xdigit]+/
+
+token fpNum /([digit09]+.[digit09]*|.[digit09]+)([exp][pm]?[digit09]+)?
+
