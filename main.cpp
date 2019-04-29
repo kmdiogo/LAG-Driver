@@ -14,35 +14,12 @@ int main() {
     ifstream inFile;
     inFile.open("../testinput.txt");
     if (!inFile) {
-        cout << "Fuck";
+        cout << "Error opening file";
         exit(0);
     }
     LexicalAnalyzer lex(inFile);
     string lexeme;
     Token t;
-
-    /*for (int i=0; i < lex.dfa.size();i++) {
-        cout << "State " << i << ": ";
-        for (auto & edgePair : lex.dfa[i]) {
-            cout << "Input: [";
-            for (auto & ch : edgePair.first) {
-                cout << ch << ",";
-            }
-            cout << "]: " << edgePair.second << " | ";
-        }
-        cout << endl << endl;
-    }
-    cout << "Ignores: ";
-    for (auto & x : lex.ignores) {
-        cout << x << ", ";
-    }
-    cout << endl << endl;
-
-    cout << "acceptingState: ";
-    for (auto & x : lex.acceptingStates) {
-        cout << x.first << " ";
-    }
-    cout << endl;*/
 
     while (lex.next(t, lexeme)){
         cout << "Found token: " << t << endl;
