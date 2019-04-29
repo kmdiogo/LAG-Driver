@@ -1,42 +1,102 @@
 ------ STATE 0 ------
 	input [ ]: 1
-	input [numbers]: 2
+	input [-]: -1
+	input [num]: 2
 	input [alphaCapital]: 3
 	input [alpha]: 4
-	input [z]: -1
 ------ STATE 1 (accepting for token ignore)  ------
 	input [ ]: 1
-	input [numbers]: -1
+	input [-]: -1
+	input [num]: -1
 	input [alphaCapital]: -1
 	input [alpha]: -1
-	input [z]: -1
------- STATE 2 (accepting for token numbas)  ------
+------ STATE 2 ------
 	input [ ]: -1
-	input [numbers]: 2
+	input [-]: -1
+	input [num]: 5
 	input [alphaCapital]: -1
 	input [alpha]: -1
-	input [z]: -1
------- STATE 3 (accepting for token identifier)  ------
+------ STATE 3 (accepting for token numberedVariable)  ------
 	input [ ]: -1
-	input [numbers]: 5
+	input [-]: -1
+	input [num]: 6
 	input [alphaCapital]: 3
 	input [alpha]: 4
-	input [z]: 6
------- STATE 4 (accepting for token identifier)  ------
+------ STATE 4 (accepting for token numberedVariable)  ------
 	input [ ]: -1
-	input [numbers]: 5
+	input [-]: -1
+	input [num]: 6
 	input [alphaCapital]: 3
 	input [alpha]: 4
-	input [z]: 6
------- STATE 5 (accepting for token identifier)  ------
+------ STATE 5 ------
 	input [ ]: -1
-	input [numbers]: 5
+	input [-]: -1
+	input [num]: 7
 	input [alphaCapital]: -1
 	input [alpha]: -1
-	input [z]: 6
------- STATE 6 (accepting for token identifier)  ------
+------ STATE 6 (accepting for token numberedVariable)  ------
 	input [ ]: -1
-	input [numbers]: 5
+	input [-]: -1
+	input [num]: -1
 	input [alphaCapital]: -1
 	input [alpha]: -1
-	input [z]: 6
+------ STATE 7 ------
+	input [ ]: -1
+	input [-]: 8
+	input [num]: -1
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 8 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 9
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 9 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 10
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 10 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 11
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 11 ------
+	input [ ]: -1
+	input [-]: 12
+	input [num]: -1
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 12 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 13
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 13 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 14
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 14 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 15
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 15 ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: 16
+	input [alphaCapital]: -1
+	input [alpha]: -1
+------ STATE 16 (accepting for token phoneNumber)  ------
+	input [ ]: -1
+	input [-]: -1
+	input [num]: -1
+	input [alphaCapital]: -1
+	input [alpha]: -1

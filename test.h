@@ -5,7 +5,7 @@
 #include <fstream>
 #include <unordered_set>
 using namespace std;
-enum Token{identifier,numbas,};
+enum Token{numberedVariable,phoneNumber,};
 
 
 class LexicalAnalyzer {
@@ -19,6 +19,5 @@ class LexicalAnalyzer {
         map<int, Token> acceptingStates;
         unordered_set<int> ignores;
         ifstream & input;
-        map<vector<char>, string> inputClassLookup;
 
 };
