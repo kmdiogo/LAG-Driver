@@ -5,7 +5,7 @@
 #include <fstream>
 #include <unordered_set>
 using namespace std;
-enum Token{numberedVariable,phoneNumber,random,};
+enum Token{dNum,oNum,hNum,fpNum,};
 
 
 class LexicalAnalyzer {

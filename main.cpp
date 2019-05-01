@@ -6,7 +6,7 @@
 #include <fstream>
 #include <map>
 #include <vector>
-#include "test.h"
+#include "LexicalAnalyzer.h"
 
 using namespace std;
 

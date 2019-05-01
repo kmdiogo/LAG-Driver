@@ -3,4 +3,4 @@ project(LAG_Driver)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(LAG_Driver main.cpp test.cpp test.h)
+add_executable(LAG_Driver main.cpp LexicalAnalyzer.cpp LexicalAnalyzer.h)
